@@ -1,7 +1,5 @@
 package com.jarvis.design.creational.builder.v2;
 
-import java.util.Set;
-
 /**
  * @author Jarvis(Tang Hui)
  * @version 1.0
@@ -9,7 +7,7 @@ import java.util.Set;
  */
 public class Test {
     public static void main(String[] args) {
-        Course course=new Course.CourseBuilder().buildCourseName("Java")
+        Course course = new Course.CourseBuilder().buildCourseName("Java")
                 .buildCoursePPT("Java PPT")
                 .buildCourseVideo("Java Video")
                 .buildCourseArticle("Java article")

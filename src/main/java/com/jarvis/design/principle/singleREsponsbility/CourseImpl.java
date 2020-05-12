@@ -5,7 +5,7 @@ package com.jarvis.design.principle.singleREsponsbility;
  * @version 1.0
  * @date 2020/5/3 15:18
  */
-public class CourseImpl implements ICourseManager,ICourseContent {
+public class CourseImpl implements ICourseManager, ICourseContent {
     public String getCourseName() {
         return null;
     }

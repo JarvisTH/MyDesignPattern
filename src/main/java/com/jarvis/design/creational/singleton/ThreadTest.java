@@ -10,8 +10,8 @@ public class ThreadTest implements Runnable {
 //        LazySingleton lazySingleton=LazySingleton.getInstance();
 //        System.out.println(Thread.currentThread().getName()+" "+ lazySingleton.toString());
 
-        ContainerSingleton.putInstance("object",new Object());
-        Object instance=ContainerSingleton.getInstance("object");
-        System.out.println(Thread.currentThread().getName()+" "+instance.toString());
+        ContainerSingleton.putInstance("object", new Object());
+        Object instance = ContainerSingleton.getInstance("object");
+        System.out.println(Thread.currentThread().getName() + " " + instance.toString());
     }
 }

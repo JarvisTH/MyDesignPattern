@@ -5,7 +5,7 @@ package com.jarvis.design.creational.prototype.abstructprototype;
  * @version 1.0
  * @date 2020/5/9 17:16
  */
-public abstract class A implements Cloneable{
+public abstract class A implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();

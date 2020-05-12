@@ -8,10 +8,10 @@ package com.jarvis.design.creational.factorymethod;
 public class test {
     public static void main(String[] args) {
 
-        VideoFactory videoFactory=new PythonVedioFactory();
-        VideoFactory videoFactory1=new JavaVideoFactory();
-        VideoFactory videoFactory2=new FrontEndVideoFactory();
-        Video video=videoFactory.getVideo();
+        VideoFactory videoFactory = new PythonVedioFactory();
+        VideoFactory videoFactory1 = new JavaVideoFactory();
+        VideoFactory videoFactory2 = new FrontEndVideoFactory();
+        Video video = videoFactory.getVideo();
         video.produce();
     }
 }

@@ -7,10 +7,10 @@ package com.jarvis.design.creational.builder;
  */
 public class Test {
     public static void main(String[] args) {
-        CourseBuilder courseBuilder=new CourseActualBuilder();
-        Coach coach=new Coach();
+        CourseBuilder courseBuilder = new CourseActualBuilder();
+        Coach coach = new Coach();
         coach.setCourseBuilder(courseBuilder);
-        Course course=coach.makeCourse("Java","Java PPT","Java Video","Java Article","Java QA");
+        Course course = coach.makeCourse("Java", "Java PPT", "Java Video", "Java Article", "Java QA");
         System.out.println(course);
     }
 }

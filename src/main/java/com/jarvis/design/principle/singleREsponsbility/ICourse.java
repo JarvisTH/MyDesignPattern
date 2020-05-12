@@ -6,10 +6,12 @@ package com.jarvis.design.principle.singleREsponsbility;
  * @date 2020/5/3 15:15
  */
 public interface ICourse {
-// 2个职责
- String getCourseName();
- byte[] getCourseVideo();
+    // 2个职责
+    String getCourseName();
 
- void studyCourse();
- void refundCourse();
+    byte[] getCourseVideo();
+
+    void studyCourse();
+
+    void refundCourse();
 }

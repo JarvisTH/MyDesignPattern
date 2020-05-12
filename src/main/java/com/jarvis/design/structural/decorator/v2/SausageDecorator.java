@@ -12,11 +12,11 @@ public class SausageDecorator extends AbstructDecorator {
 
     @Override
     protected String getDesc() {
-        return super.getDesc()+" +香肠";
+        return super.getDesc() + " +香肠";
     }
 
     @Override
     protected int cost() {
-        return super.cost()+2;
+        return super.cost() + 2;
     }
 }

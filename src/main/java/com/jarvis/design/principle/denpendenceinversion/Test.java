@@ -1,9 +1,5 @@
 package com.jarvis.design.principle.denpendenceinversion;
 
-import com.sun.javaws.jnl.JARDesc;
-
-import javax.swing.*;
-
 /**
  * @author Jarvis(Tang Hui)
  * @version 1.0
@@ -34,7 +30,7 @@ public class Test {
 //    }
 
     public static void main(String[] args) {
-        Jarvis jarvis=new Jarvis();
+        Jarvis jarvis = new Jarvis();
         jarvis.setiCourse(new JavaCourse());
         jarvis.studyCourse();
         jarvis.setiCourse(new FrontCourse());

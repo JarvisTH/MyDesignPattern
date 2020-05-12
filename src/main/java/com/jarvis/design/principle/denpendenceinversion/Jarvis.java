@@ -26,12 +26,12 @@ public class Jarvis {
 //        iCourse.studyCourse();
 //    }
 
-//    v3
-    public void studyCourse(){
+    //    v3
+    public void studyCourse() {
         this.iCourse.studyCourse();
     }
 
-//    v4    开放注入
+    //    v4    开放注入
     public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }

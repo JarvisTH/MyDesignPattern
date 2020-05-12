@@ -7,9 +7,9 @@ package com.jarvis.design.structural.facade;
  */
 public class ShippingService {
 
-    public String shipGift(PointGift pointGift){
+    public String shipGift(PointGift pointGift) {
         // 物流系统对接
-        System.out.println(pointGift.getName()+"进入物流系统");
+        System.out.println(pointGift.getName() + "进入物流系统");
         // 订单号
         return "666";
     }

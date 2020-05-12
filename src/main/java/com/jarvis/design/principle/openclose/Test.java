@@ -7,10 +7,10 @@ package com.jarvis.design.principle.openclose;
  */
 public class Test {
     public static void main(String[] args) {
-        ICourse javaCourse=new JavaDiscountCourse(96,"Java",348d);
-        System.out.println(javaCourse.getId()+" "+
-                javaCourse.getName()+" "+
-                javaCourse.getPrice()+" "+
+        ICourse javaCourse = new JavaDiscountCourse(96, "Java", 348d);
+        System.out.println(javaCourse.getId() + " " +
+                javaCourse.getName() + " " +
+                javaCourse.getPrice() + " " +
                 ((JavaDiscountCourse) javaCourse).getOriginPrice());
     }
 }

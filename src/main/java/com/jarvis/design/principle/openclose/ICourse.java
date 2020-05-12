@@ -8,9 +8,10 @@ package com.jarvis.design.principle.openclose;
 public interface ICourse {
 
     Integer getId();
-    String getName();
-    Double getPrice();
 
+    String getName();
+
+    Double getPrice();
 
 
 }

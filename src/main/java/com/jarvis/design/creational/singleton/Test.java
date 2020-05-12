@@ -1,8 +1,5 @@
 package com.jarvis.design.creational.singleton;
 
-import java.io.*;
-import java.lang.reflect.Constructor;
-
 /**
  * @author Jarvis(Tang Hui)
  * @version 1.0
@@ -10,11 +7,11 @@ import java.lang.reflect.Constructor;
  */
 public class Test {
 
-//    多线程
+    //    多线程
     public static void main(String[] args) {
 
-        Thread t1=new Thread(new ThreadTest());
-        Thread t2=new Thread(new ThreadTest());
+        Thread t1 = new Thread(new ThreadTest());
+        Thread t2 = new Thread(new ThreadTest());
         t1.start();
         t2.start();
         System.out.println("end");

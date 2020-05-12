@@ -7,5 +7,6 @@ package com.jarvis.design.principle.singleREsponsbility;
  */
 public interface ICourseContent {
     String getCourseName();
+
     byte[] getCourseVideo();
 }

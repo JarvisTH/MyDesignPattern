@@ -7,17 +7,17 @@ package com.jarvis.design.creational.singleton;
  */
 public class StaticInnerClassSingleton {
 
-    private StaticInnerClassSingleton(){
-        if(InnerClass.staticInnerClassSingleton!=null){
+    private StaticInnerClassSingleton() {
+        if (InnerClass.staticInnerClassSingleton != null) {
             throw new RuntimeException("单例构造器禁止反射调用");
         }
     }
 
-    private static class InnerClass{
-        private static StaticInnerClassSingleton staticInnerClassSingleton=new StaticInnerClassSingleton();
+    public static StaticInnerClassSingleton getInstance() {
+        return InnerClass.staticInnerClassSingleton;
     }
 
-    public static StaticInnerClassSingleton getInstance(){
-        return InnerClass.staticInnerClassSingleton;
+    private static class InnerClass {
+        private static StaticInnerClassSingleton staticInnerClassSingleton = new StaticInnerClassSingleton();
     }
 }

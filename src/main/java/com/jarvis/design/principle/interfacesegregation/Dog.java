@@ -21,7 +21,7 @@ package com.jarvis.design.principle.interfacesegregation;
 //    }
 //}
 
-public class Dog implements IEatAnimalAction,ISwimAnimalAction {
+public class Dog implements IEatAnimalAction, ISwimAnimalAction {
 
     public void eat() {
 

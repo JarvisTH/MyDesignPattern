@@ -5,15 +5,20 @@ package com.jarvis.design.creational.singleton;
  * @version 1.0
  * @date 2020/5/5 15:33
  */
-public enum  EnumInstance {
-    INSTANCE{
-        protected void printTest(){
+public enum EnumInstance {
+    INSTANCE {
+        protected void printTest() {
             System.out.println("test");
         }
     };
 
-    protected abstract void printTest();
     private Object data;
+
+    public static EnumInstance getInstance() {
+        return INSTANCE;
+    }
+
+    protected abstract void printTest();
 
     public Object getData() {
         return data;
@@ -21,9 +26,5 @@ public enum  EnumInstance {
 
     public void setData(Object data) {
         this.data = data;
-    }
-
-    public static EnumInstance getInstance(){
-        return INSTANCE;
     }
 }

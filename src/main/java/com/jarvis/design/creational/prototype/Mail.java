@@ -1,13 +1,11 @@
 package com.jarvis.design.creational.prototype;
 
-import java.util.Map;
-
 /**
  * @author Jarvis(Tang Hui)
  * @version 1.0
  * @date 2020/5/9 17:01
  */
-public class Mail implements Cloneable{
+public class Mail implements Cloneable {
 
     private String name;
 
@@ -15,7 +13,7 @@ public class Mail implements Cloneable{
 
     private String content;
 
-    public Mail(){
+    public Mail() {
         System.out.println("Mail construct");
     }
 
@@ -49,10 +47,10 @@ public class Mail implements Cloneable{
                 "name='" + name + '\'' +
                 ", emailAddress='" + emailAddress + '\'' +
                 ", content='" + content + '\'' +
-                '}'+super.toString();
+                '}' + super.toString();
     }
 
-//    v2
+    //    v2
     @Override
     protected Object clone() throws CloneNotSupportedException {
         System.out.println("clone mail object");

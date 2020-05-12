@@ -21,7 +21,7 @@ package com.jarvis.design.principle.interfacesegregation;
 //    }
 //}
 
-public class Bird implements IFlyAnimalAction,IEatAnimalAction {
+public class Bird implements IFlyAnimalAction, IEatAnimalAction {
 
     public void eat() {
 

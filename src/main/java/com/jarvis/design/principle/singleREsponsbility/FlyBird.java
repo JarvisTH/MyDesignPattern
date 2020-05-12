@@ -7,8 +7,8 @@ package com.jarvis.design.principle.singleREsponsbility;
  */
 public class FlyBird {
 
-    public void mainMoveMode(String birdName){
-        System.out.println(birdName+"用翅膀飞");
+    public void mainMoveMode(String birdName) {
+        System.out.println(birdName + "用翅膀飞");
     }
 
 }

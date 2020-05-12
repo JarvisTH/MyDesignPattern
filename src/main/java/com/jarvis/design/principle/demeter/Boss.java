@@ -1,8 +1,5 @@
 package com.jarvis.design.principle.demeter;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Jarvis(Tang Hui)
  * @version 1.0
@@ -10,7 +7,7 @@ import java.util.List;
  */
 public class Boss {
 
-    public void commandCheckNumber(TeamLeader teamLeader){
+    public void commandCheckNumber(TeamLeader teamLeader) {
 
 //        v1
         //        List<Course> list=new ArrayList<Course>();

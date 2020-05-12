@@ -7,5 +7,6 @@ package com.jarvis.design.principle.singleREsponsbility;
  */
 public interface ICourseManager {
     void studyCourse();
+
     void refundCourse();
 }

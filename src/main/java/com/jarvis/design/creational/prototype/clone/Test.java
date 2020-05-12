@@ -1,9 +1,5 @@
 package com.jarvis.design.creational.prototype.clone;
 
-import com.jarvis.design.creational.singleton.HungrySingleton;
-import com.sun.javafx.font.PGFont;
-
-import java.lang.reflect.Method;
 import java.util.Date;
 
 /**
@@ -12,10 +8,10 @@ import java.util.Date;
  * @date 2020/5/9 17:20
  */
 public class Test {
-    public static void main(String[] args)throws Exception {
-        Date birthday=new Date(0L);
-        Pig pig=new Pig("佩奇",birthday);
-        Pig pig1=(Pig)pig.clone();
+    public static void main(String[] args) throws Exception {
+        Date birthday = new Date(0L);
+        Pig pig = new Pig("佩奇", birthday);
+        Pig pig1 = (Pig) pig.clone();
         System.out.println(pig);
         System.out.println(pig1);
 

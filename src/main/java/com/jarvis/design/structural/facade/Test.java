@@ -7,8 +7,8 @@ package com.jarvis.design.structural.facade;
  */
 public class Test {
     public static void main(String[] args) {
-        PointGift pointGift=new PointGift("衣服");
-        GiftExchangeService giftExchangeService=new GiftExchangeService();
+        PointGift pointGift = new PointGift("衣服");
+        GiftExchangeService giftExchangeService = new GiftExchangeService();
 
 //        giftExchangeService.setQualifyService(new QualifyService());
 //        giftExchangeService.setPointsPaymentService(new PointsPaymentService());
